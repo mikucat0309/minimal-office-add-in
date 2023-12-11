@@ -1,0 +1,9 @@
+{
+  "license":"MIT",
+  "scripts": {
+    "start": "concurrently \"live-server --port=3000 --https=live-server/https.js --no-browser\" \"office-addin-debugging start manifest.local.xml desktop\""
+  },
+  "devDependencies": {
+    "office-addin-debugging": "^5.0.14"
+  }
+}
